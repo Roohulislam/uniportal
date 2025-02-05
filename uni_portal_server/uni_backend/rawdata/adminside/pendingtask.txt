@@ -1,0 +1,19 @@
+const tasksData = {
+    studentApprovals: [
+      { id: 1, task: 'Verify student registration', priority: 'high', description: 'Urgent verification needed for new students', progress: 80 },
+      { id: 2, task: 'Approve document submission', priority: 'normal', description: 'Documents pending approval from students', progress: 45 },
+      { id: 3, task: 'Verify international student status', priority: 'urgent', description: 'Urgent, needs to be cleared immediately', progress: 90 },
+    ],
+    feeCollection: [
+      { id: 1, task: 'Confirm overdue fees', priority: 'high', description: 'Overdue fees for 20 students', progress: 60 },
+      { id: 2, task: 'Send payment reminders', priority: 'normal', description: 'Reminders for fee payment sent to students', progress: 50 },
+    ],
+    examScheduling: [
+      { id: 1, task: 'Schedule final exams', priority: 'urgent', description: 'Finalize scheduling for the final exams', progress: 85 },
+      { id: 2, task: 'Confirm exam proctors', priority: 'high', description: 'Proctors need to be confirmed for the exam', progress: 70 },
+    ],
+    facultyRequests: [
+      { id: 1, task: 'Approve faculty leave', priority: 'normal', description: 'Pending leave approval for a faculty member', progress: 40 },
+      { id: 2, task: 'Review faculty schedules', priority: 'high', description: 'High priority, faculty schedules need review', progress: 75 },
+    ],
+  };
